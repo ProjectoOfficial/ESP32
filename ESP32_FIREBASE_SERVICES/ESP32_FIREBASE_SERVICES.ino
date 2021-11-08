@@ -1,11 +1,11 @@
 #include <WiFi.h>
 #include <FirebaseESP32.h>
 
-#define FIREBASE_HOST "https://esp32-562f6-default-rtdb.europe-west1.firebasedatabase.app/"
-#define FIREBASE_AUTH "Q2s7OvUuRKxVg3jgqvo3vs20dxTOTdH7PDNhrba1"
+#define FIREBASE_HOST ""
+#define FIREBASE_AUTH ""
 
-#define WIFI_SSID "Linkem_682B6C"
-#define WIFI_PASSWORD "poletta2598"
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""
 
 FirebaseData fData;
 FirebaseJson json;
