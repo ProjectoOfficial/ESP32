@@ -34,6 +34,9 @@ Create your own web server with ESP32.  It allows to directly control a pair of 
 ### [ESP Motion Detection](https://github.com/ProjectoOfficial/ESP32/tree/main/ESP_MOTION_DETECTION)
 Build a motion detection system using ESP32. Monitor and respond to motion events in your environment.
 
+### [ESP Histogram of Oriented Gradients](https://github.com/ProjectoOfficial/ESP32/tree/main/ESP32CAM_HOG_OPENCV)
+A project which exploits ESP32-CAM stream to be captured with OpenCV in Python in order to detect people within the scene. It is built within docker, please refere to this guide [ai-base-docker](https://github.com/ProjectoOfficial/ai-base-docker). As for the firmware you have to upload on ESP32, please install ESP32 boards on arduino adding this link (https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json), then select AI-Base-Thinker, go to "Examples" > "ESP32" > "Camera" and use "WebServerCamera.ino". In the Firmware, select the MACRO with AI-Thinker name, add your WiFi SSID and Password and retrieve ESP32 IP address.
+
 ## Getting Started
 
 Each project includes detailed documentation and code within its respective folder. Click the project links above to access code examples, setup instructions, and additional resources.
