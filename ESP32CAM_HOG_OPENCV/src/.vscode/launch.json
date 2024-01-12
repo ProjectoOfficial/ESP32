@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Main",
+            "type": "python",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "args": [
+                // "--get-camera-ip",
+                "--camera-socket", "http://192.168.137.201"
+                // "--camera-index", "2",
+            ]
+        }
+    ]
+}
